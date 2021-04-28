@@ -4,7 +4,7 @@ You can use this module to create your Amazon ES cluster by defining each parame
 ```
 module "aws_es" {
 
-  source  = "git url"
+  source  = "https://github.com/jerem-uzoma/terraform-aws-els-module.git"
 
   domain_name           = "elasticsearch_public"
   elasticsearch_version = "7.1"
@@ -58,7 +58,7 @@ module "aws_es" {
 ```
 module "aws_es" {
 
-  source  = "lgallard/elasticsearch/aws"
+  source  = "https://github.com/jerem-uzoma/terraform-aws-els-module.git"
 
   domain_name           = "elasticsearch_public"
   elasticsearch_version = "7.1"
